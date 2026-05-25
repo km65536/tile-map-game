@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    color: white;
+    flex-direction: column;
+}
+canvas {
+    border: 4px solid #fff;
+    background-color: #000;
+}
+#info {
+    margin-top: 10px;
+    font-size: 14px;
+}
