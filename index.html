@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Tile Map Game (Mobile Support)</title>
+    <title>Tile Map Game Base</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div id="game-container">
-        <canvas id="gameCanvas" width="320" height="320"></canvas>
-        <div id="info">矢印キーまたはボタンで移動</div>
-    </div>
+    <canvas id="gameCanvas" width="320" height="320"></canvas>
+    <div id="info">矢印キー（↑ ↓ ← →）でプレイヤー（緑）を動かせます。赤は壁です。</div>
 
     <div id="controller">
         <button id="btn-up" class="ctrl-btn">↑</button>
@@ -23,6 +21,6 @@
         <button id="btn-down" class="ctrl-btn">↓</button>
     </div>
 
-    <script src="script.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>
